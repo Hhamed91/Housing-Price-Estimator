@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Predict how much your house is worth</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container">
+  
+    {% if pred == 7: %}
+         <p>This is the index page - and here's a number passed from app.py: ${{pred}}</p>
+    {% else: %}
+      <p>in else block ${{pred}}</p>
+    {% endif %}
+
+  </div>
+</body>
+
+</html>
+
